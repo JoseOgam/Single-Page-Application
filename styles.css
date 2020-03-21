@@ -22,14 +22,6 @@ VERSION:	V1
   font-family: Arial, Helvetica, sans-serif;
   box-sizing: border-box;
 }
-/*Styling the body*/
-body {
-  background: white;
-}
-
-ul{
-	list-style: none;
-}
 
 
 /*styling the nav/header*/
@@ -37,6 +29,8 @@ ul{
   background-color: darkslategray;
   overflow: hidden;
   padding: 20px 10px;
+  position: fixed;
+  width: 100%;
 }
 
 .header a{
@@ -76,4 +70,23 @@ ul{
     float: none;
   }
 }
+.Home{
+  background-color: yellowgreen;
+  padding: 150px 10px;
+  display: block;
+}
+.About{
+  background-color: violet;
+  padding: 150px 10px;
+}
+.Contact{
+  background-color: chocolate;
+  padding: 150px 10px;
+}
 
+h3{
+  text-align: center;
+  font-weight: bold;
+  font-size: 60px;
+  text-transform: uppercase;
+}
